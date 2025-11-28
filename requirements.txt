@@ -2,7 +2,6 @@ fastapi
 uvicorn[standard]
 pillow
 requests
-paddleocr
 transformers
 openai
 python-multipart
