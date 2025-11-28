@@ -9,3 +9,4 @@ python-multipart
 fuzzywuzzy[speedup]
 python-Levenshtein
 pdf2image
+easyocr
