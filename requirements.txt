@@ -3,9 +3,7 @@ uvicorn[standard]
 pillow
 requests
 transformers
-openai
 python-multipart
-fuzzywuzzy[speedup]
 python-Levenshtein
 pdf2image
 easyocr
