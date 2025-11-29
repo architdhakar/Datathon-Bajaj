@@ -1199,7 +1199,7 @@ async def skip_ngrok_warning(request: Request, call_next):
     response.headers["ngrok-skip-browser-warning"] = "true"
     return response
 
-GEMINI_API_KEY = "AIzaSyAWvvhnvuivy-BcLhf026K9MIoLvqNdhlc"
+GEMINI_API_KEY =""
 extractor = BillExtractor(GEMINI_API_KEY)
 
 @app.post("/extract-bill-data", response_model=ExtractionResponse)
