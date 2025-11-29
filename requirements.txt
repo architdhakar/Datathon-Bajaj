@@ -1,9 +1,18 @@
 fastapi
-uvicorn[standard]
-pillow
+uvicorn
+pydantic
 requests
-transformers
-python-multipart
-python-Levenshtein
-pdf2image
+Pillow
+numpy
 easyocr
+PyMuPDF  # For PDF support
+python-multipart
+pdfplumber
+scikit-image
+pdf2image
+poppler-utils
+opencv-python 
+pytesseract
+scikit-learn
+pandas
+google-generative-ai
