@@ -1,9 +1,9 @@
 # Datathon-Bajaj
-# 🏥 Medical Bill Line Item Extractor
+## Medical Bill Line Item Extractor
 
 An advanced AI-powered pipeline for automatically extracting line items from medical bills, pharmacy invoices, and hospital documents with high accuracy.
 
-## 🚀 Features
+##  Features
 
 - **Multi-Format Support**: PDF, PNG, JPG, JPEG
 - **Advanced OCR**: EasyOCR with image preprocessing
@@ -12,7 +12,7 @@ An advanced AI-powered pipeline for automatically extracting line items from med
 - **Duplicate Detection**: Smart similarity-based deduplication
 - **REST API**: FastAPI with comprehensive endpoints
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 # Clone repository
@@ -91,6 +91,8 @@ def parse_line_item(text):
     if regex_patterns(text): return regex_result     # Fast & accurate
     elif llm_available: return llm_parse(text)       # Intelligent fallback  
     else: return heuristic_extract(text)             # Final attempt
+
+
 
 ##Architecture
 Input → Document Processing → OCR → Text Processing → Multi-Stage Parsing → Output
